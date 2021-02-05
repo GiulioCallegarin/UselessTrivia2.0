@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_log_background"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".levels.Level3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <TextView
+            android:id="@+id/txtLivello"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center_horizontal"
+            android:text="LIVELLO 3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:backgroundTint="@color/lvl3"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Menu"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnMenu"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:id="@+id/txtPunteggio"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:backgroundTint="@color/lvl3"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:text="Reset"
+            android:id="@+id/btnReset"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:layout_weight="17">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:id="@+id/chipActivate"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/lvl3"
+            android:checked="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+
+        <SeekBar
+            android:id="@+id/seekIncrement"
+            android:layout_below="@+id/chipActivate"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:max="20"
+            android:thumbTint="@color/lvl3"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+
+        <SeekBar
+            android:id="@+id/seekIncrement2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekIncrement"
+            android:layout_marginTop="50dp"
+            android:max="20"
+            android:thumbTint="@color/lvl3" />
+
+        <SeekBar
+            android:id="@+id/seekIncrement3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekIncrement2"
+            android:max="20"
+            android:layout_marginTop="50dp"
+            android:thumbTint="@color/lvl3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekIncrement3"
+            android:backgroundTint="@color/lvl3"
+            android:layout_toLeftOf="@+id/btnTwo"
+            android:text="0"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnOne"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekIncrement3"
+            android:backgroundTint="@color/lvl3"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:id="@+id/btnTwo"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekIncrement3"
+            android:backgroundTint="@color/lvl3"
+            android:layout_toRightOf="@+id/btnTwo"
+            android:text="0"
+            android:textColor="@color/black"
+            android:id="@+id/btnThree"
+            android:layout_marginTop="50dp" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lvl3"
+        android:onClick="check"
+        android:text="Check" />
+
+
+
+
+</LinearLayout>

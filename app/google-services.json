@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "92509288467",
+    "project_id": "uselesstrivia-5333d",
+    "storage_bucket": "uselesstrivia-5333d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92509288467:android:27b3d2dc9fd764199827e6",
+        "android_client_info": {
+          "package_name": "com.example.uselesstrivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92509288467-diics9adcouml0u41heuh8mv54ogjjkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAypH-ULj7-ugFUau9oJpZoMfNFvJKqnrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92509288467-diics9adcouml0u41heuh8mv54ogjjkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92509288467:android:de2cc5241ee917c69827e6",
+        "android_client_info": {
+          "package_name": "com.example.uselesstrivia20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92509288467-diics9adcouml0u41heuh8mv54ogjjkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAypH-ULj7-ugFUau9oJpZoMfNFvJKqnrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92509288467-diics9adcouml0u41heuh8mv54ogjjkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
